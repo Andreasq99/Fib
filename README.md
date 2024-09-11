@@ -17,9 +17,13 @@ To install, just clone the repository and make sure you have Python installed an
 ## Usage <a name="usage"></a>
 To run any program, open your favorite terminal, navigate to the repository, and run 
 
-    python [name of program].py
+    python run.py [index of program file] [highest Fibonacci number to calculate]
 
-It's as simple as that!
+For example, if I want to use the program in fib0.py to calculate the first thirty Fibonacci numbers, I would run
+
+    python run.py 0 30
+
+ The terminal will then spit out the first 30 Fibonacci numbers, and the time it took to calculate them. It's as simple as that!
 
 ## Contributing <a name="contributing"></a>
 This project is meant to be an archive of our collaborations, and we are not looking for contributors. Feel free to fork, or even push a branch, but we make no promise to merge or use your code.
